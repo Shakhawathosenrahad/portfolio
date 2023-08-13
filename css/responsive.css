@@ -1,0 +1,115 @@
+@media (width <=720px) {
+
+    nav .links {
+        position: absolute;
+        top: 70px;
+        right: -300px;
+        width: 300px;
+        height: calc(100vh - 70px);
+        overflow: hidden;
+        background: #a09a9a;
+        border-radius: 50% 0 0 100%;
+        transition: 400ms;
+    }
+
+    nav.scrolling .links {
+        top: 50px;
+        height: calc(100vh - 50px);
+    }
+
+    .links a {
+        display: block;
+        width: 50%;
+        margin: 40px auto;
+    }
+
+    .links a:hover, .links a.active {
+        border-color: transparent transparent transparent var(--link);
+    }
+
+    nav .menu {
+        display: block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .menu div {
+        display: block;
+        width: 100%;
+        height: 2.9px;
+        margin: 6px auto;
+        background: #fff;
+        transform-origin: left;
+        transition: transform 200ms;
+    }
+
+    .menu.open div:first-child {
+        transform: translate(2px, -2px) rotate(45deg);
+    }
+
+    .menu.open div:nth-child(2) {
+        transform: scaleX(0);
+    }
+
+    .menu.open div:last-child {
+        transform: translate(2px, 2px) rotate(-45deg);
+    }
+}
+
+    /* all project  */
+@media (width >= 1000px) {
+
+    .projects li {
+        max-width: 70rem;
+        
+    }
+
+    li > .img {
+        grid-row: 1 / 9;
+        border-radius: 5px 0 0 5px;
+    }
+
+    li:nth-child(odd) > .img {
+        border-radius: 0 5px 5px 0;
+    }
+        
+    li > p {
+        grid-row: 2 / 5;
+    }
+    
+    li > .tech {
+        grid-column: 7 / -1;
+        grid-row: 5 / 6;
+    }
+
+    li:nth-child(odd) .tech {
+        grid-column: 1 / 7;
+    }
+}
+
+@media (width <= 800px) {
+    .projects li:nth-child(odd) :is(.img, h4, p, .tech, .source),
+    .projects li:nth-child(even) :is(.img, h4, p, .tech, .source) {
+        grid-column: 1 / -1;
+    }
+    li > .img {
+        grid-row: 1 / 5;
+    }
+
+    li > h4 {
+        grid-row: 5 / 6;
+      }
+      
+      li > p {
+        grid-row: 6 / 7;
+      }
+      
+      li > .tech {
+        grid-row: 7 / 8;
+      }
+      
+      li > .source {
+        grid-row: 8 / 9;
+      }
+}

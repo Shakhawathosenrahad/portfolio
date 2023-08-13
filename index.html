@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Portfolio</title>
+  <!-- google font -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/eab848cb9a.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <!-- js -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+  <script src="./js/index.js" type="module" defer></script>
+</head>
+<body>
+  <!-- NavBar -->
+  <nav>
+    <a class="btn btn-links logo" href="#">SH.DEV</a>
+    <div class="links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="./components/sign up/signup.html" class="btn btn-outline-light sign">SIGN UP</a>
+    <div class="menu" tabindex="1">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header class="section" id="home">
+    <div class="header-text">
+      <h2 class="TypeWriter">Hay, I'm&nbsp;<span id="TypeWriter">Front-End Developer</span><span class="fa-solid fa-i-cursor"></span></h2>
+      <p>I am passionate about converting error-free PSD/ XD/ FIGMA/ JPG/ SKETCH to HTML. I have a passion for learning and sharing my knowledge with others as publicly as possible. I love to solve real world problems</p>
+      <div class="social Tech">
+        <h4>Experienced At :</h4>
+        <a href="#" class="fa-brands fa-html5" style="color: #dd4b25;"></a>
+        <a href="#" class="fa-brands fa-css3-alt"></a>
+        <a href="#" class="fa-brands fa-bootstrap" style="color: #8512f7;"></a>
+        <a href="#" class="fa-brands fa-js" style="color: #e8d44d;"></a>
+        <a href="#" target="_blank" class="fa-brands fa-github" style="color: #000;"></a>
+      </div>
+    </div>
+    <div class="header-img"></div>
+  </header>
+
+  <!-- about me -->
+  <div class="section" id="about">
+    <div class="about-img">
+      <img src="./images/about-img.jpg" alt="">
+    </div>
+    <div class="about-text">
+      <h2>ABOUT ME</h2>
+      <h6>Hi, I'm Front-End Web Developer👏.<br>
+        I am passionate about converting error-free PSD/ XD/ FIGMA/ JPG/ SKETCH to HTML. I have a passion for learning and sharing my knowledge with others as publicly as possible. I love to solve real world problems. My code will be flawless, hand-coded, pixel-perfect HTML-CSS/BOOTSTRAP JAVASCRIPT website that will look great on every device.</h6>
+        <div class="social">
+          <a href="https://www.facebook.com/shakhawat.rhd" target="_blank" class="fa-brands fa-facebook"></a>
+          <a href="https://www.linkedin.com/in/shakhawat-rahad" target="_blank" class="fa-brands fa-linkedin"></a>
+          <a href="#" target="_blank" class="fa-brands fa-twitter"></a>
+          <a href="https://github.com/Shakhawathosenrahad" target="_blank" class="fa-brands fa-github"></a>
+          <a href="#" target="_blank" class="fa-brands fa-youtube"></a>
+        </div>
+    </div>
+  </div>
+
+  <!-- skill -->
+  <div class="section" id="skill">
+    <div class="pie-chart">
+      <div class="pie"></div>
+      <ul class="pie-text">
+        <li style="color: red;">Html&nbsp;(100%)</li>
+        <li style="color: blue;">Css&nbsp;(90%)</li>
+        <li style="color: green;">Bootstrap5&nbsp;(45%)</li>
+        <li>JavaScript&nbsp;(70%)</li>
+        <li style="color: gray;">React&nbsp;(20%)</li>
+      </ul>
+    </div>
+    <ul class="bar-chart">
+      <li>
+        <h4>HTML</h4>
+        <div class="line"><span style="--width: 100%;" text="100%"></span></div>
+      </li>
+      <li>
+        <h4>CSS</h4>
+        <div class="line"><span style="--width: 90%;" text="90%"></span></div>
+      </li>
+      <li>
+        <h4>BOOTSTRAP-5</h4>
+        <div class="line"><span style="--width: 45%;" text="45%"></span></div>
+      </li>
+      <li>
+        <h4>JAVASCRIPT</h4>
+        <div class="line"><span style="--width: 70%;" text="70%"></span></div>
+      </li>
+      <li>
+        <h4>REACT (learning)</h4>
+        <div class="line"><span style="--width: 20%;" text="20%"></span></div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- portfolio -->
+  <div class="section" id="portfolio">
+    <h3>Something I build</h3>
+    <p>Each project is a masterpiece of development, handcrafted with innovation and inspiration, blending art and engineering to create an extraordinary and unparalleled experience 🧊</p>
+    <div class="projects"></div>
+  </div>
+
+  <!-- contact me -->
+  <div class="section" id="contact">
+    <div class="contact-img">
+      <img src="./images/messages.png" alt="">
+    </div>
+    <form action="">
+      <h1>CONTACT ME</h1>
+      <div class="name">
+        <input type="text" id="name" required>
+        <label for="name">FULL NAME</label>
+      </div>
+      <div class="email">
+        <input type="text" id="email" required>
+        <label for="email">Email</label>
+      </div>
+      <div class="message">
+        <textarea rows="4" placeholder="Your Messages here..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">SUBMIT</button>
+    </form>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <h3>&#xa9;2023 Shakhawat Hosen. All rights reserved.</h3>
+  </footer>
+
+  <!-- loading -->
+  <div class="loading"></div>
+
+  <!-- internet connect or not -->
+  <div class="connected">
+    <span class="material-symbols-outlined">wifi</span>
+    <div class="offline">
+      <h5 class="m-0">You're online now</h5>
+      <p class="m-0">Your internet is connected</p>
+    </div>
+    <span class="wifi-close material-symbols-outlined">close</span>
+  </div>
+
+  <div class="disconnected">
+    <span class="material-symbols-outlined">wifi_off</span>
+    <div class="offline">
+      <h5 class="m-0">You're offline now</h5>
+      <p class="m-0">Opps! internet is disconnected</p>
+    </div>
+    <span class="wifi-close material-symbols-outlined">close</span>
+  </div>
+</body>
+</html>
