@@ -28,7 +28,7 @@ let projects = [
     },
     {
       name: "WordPress Agency",
-      details: "The "WordPress Agency" project is a dynamic initiative focused on harnessing the power of WordPress, one of the world's most versatile and popular content management systems. As an agency, we are dedicated to delivering outstanding web solutions and digital experiences that empower individuals, businesses, and organizations to thrive in the digital age.",
+      details: "The 'WordPress Agency' project is a dynamic initiative focused on harnessing the power of WordPress, one of the world's most versatile and popular content management systems. As an agency, we are dedicated to delivering outstanding web solutions and digital experiences that empower individuals, businesses, and organizations to thrive in the digital age.",
       img: "./images/project-1.png",
       source: {
         code: "https://github.com/Shakhawathosenrahad/wordpressAgency.git",
