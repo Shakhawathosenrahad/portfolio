@@ -4,8 +4,8 @@ let projects = [
       details: "We aim to cultivate a diverse range of plant species to attract local wildlife, including birds and butterflies, to the garden. By promoting biodiversity, we will contribute to a healthier and more sustainable ecosystem.",
       img: "./images/project-1.png",
       source: {
-        code: "https://github.com/Shakhawathosenrahad/hiking.git",
-        live: "https://shakhawathosenrahad.github.io/hiking/"
+        code: "https://github.com/Shakhawathosenrahad/greenLife.git",
+        live: "https://shakhawathosenrahad.github.io/greenLife/"
       }
     },
     {
@@ -13,8 +13,8 @@ let projects = [
       details: "",
       img: "./images/project-1.png",
       source: {
-        code: "https://github.com/Shakhawathosenrahad/hiking.git",
-        live: "https://shakhawathosenrahad.github.io/hiking/"
+        code: "https://github.com/Shakhawathosenrahad/gulf_diamond.git",
+        live: "https://shakhawathosenrahad.github.io/gulf_diamond/"
       }
     },
     {
@@ -22,8 +22,8 @@ let projects = [
       details: "",
       img: "./images/project-1.png",
       source: {
-        code: "https://github.com/Shakhawathosenrahad/hiking.git",
-        live: "https://shakhawathosenrahad.github.io/hiking/"
+        code: "https://github.com/Shakhawathosenrahad/constructionCompany.git",
+        live: "https://shakhawathosenrahad.github.io/constructionCompany/"
       }
     },
     {
@@ -31,8 +31,8 @@ let projects = [
       details: "The "WordPress Agency" project is a dynamic initiative focused on harnessing the power of WordPress, one of the world's most versatile and popular content management systems. As an agency, we are dedicated to delivering outstanding web solutions and digital experiences that empower individuals, businesses, and organizations to thrive in the digital age.",
       img: "./images/project-1.png",
       source: {
-        code: "https://github.com/Shakhawathosenrahad/hiking.git",
-        live: "https://shakhawathosenrahad.github.io/hiking/"
+        code: "https://github.com/Shakhawathosenrahad/wordpressAgency.git",
+        live: "https://shakhawathosenrahad.github.io/wordpressAgency/"
       }
     },
     {
