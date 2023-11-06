@@ -1,5 +1,41 @@
 let projects = [
     {
+      name: "Green Life",
+      details: "We aim to cultivate a diverse range of plant species to attract local wildlife, including birds and butterflies, to the garden. By promoting biodiversity, we will contribute to a healthier and more sustainable ecosystem.",
+      img: "./images/project-1.png",
+      source: {
+        code: "https://github.com/Shakhawathosenrahad/hiking.git",
+        live: "https://shakhawathosenrahad.github.io/hiking/"
+      }
+    },
+    {
+      name: "Gulf Diamond",
+      details: "",
+      img: "./images/project-1.png",
+      source: {
+        code: "https://github.com/Shakhawathosenrahad/hiking.git",
+        live: "https://shakhawathosenrahad.github.io/hiking/"
+      }
+    },
+    {
+      name: "Construction Company",
+      details: "",
+      img: "./images/project-1.png",
+      source: {
+        code: "https://github.com/Shakhawathosenrahad/hiking.git",
+        live: "https://shakhawathosenrahad.github.io/hiking/"
+      }
+    },
+    {
+      name: "WordPress Agency",
+      details: "The "WordPress Agency" project is a dynamic initiative focused on harnessing the power of WordPress, one of the world's most versatile and popular content management systems. As an agency, we are dedicated to delivering outstanding web solutions and digital experiences that empower individuals, businesses, and organizations to thrive in the digital age.",
+      img: "./images/project-1.png",
+      source: {
+        code: "https://github.com/Shakhawathosenrahad/hiking.git",
+        live: "https://shakhawathosenrahad.github.io/hiking/"
+      }
+    },
+    {
       name: "IT'S TIME FOR HIKING 🚶‍♀️",
       details: "Welcome to an unforgettable hiking experience amidst the breathtaking beauty of nature's untamed realm. Lace up your sturdy boots, pack your essentials, and embark on a journey that will lead you through rugged terrains, lush forests, and awe-inspiring landscapes. This hiking trail promises to be a soul-stirring adventure, where you'll reconnect with the earth's essence and discover the boundless serenity that lies in the great outdoors.",
       img: "./images/project-1.png",
