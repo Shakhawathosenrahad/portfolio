@@ -2,7 +2,7 @@ let projects = [
     {
       name: "Green Life",
       details: "We aim to cultivate a diverse range of plant species to attract local wildlife, including birds and butterflies, to the garden. By promoting biodiversity, we will contribute to a healthier and more sustainable ecosystem.",
-      img: "./images/greenlife.png",
+      img: "./images/greenLife.png",
       source: {
         code: "https://github.com/Shakhawathosenrahad/greenLife.git",
         live: "https://shakhawathosenrahad.github.io/greenLife/"
